@@ -1,111 +1,13 @@
-                                        body {
-                                            font-family: Arial, Helvetica, sans-serif;
-                                        }
-                                        
-                                        .style {
-                                            max-width: 600px;
-                                            margin: 0 auto;
-                                            background-color: white;
-                                            padding: 20px;
-                                            border-radius: 10px;
-                                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0, 1);
-                                            display: flex;
-                                            background-color: purple;
-                                        }
-                                        
-                                        .offers {
-                                            display: flex;
-                                            align-items: center;
-                                            gap: 15px;
-                                        }
-                                        
-                                        .offers {
-                                            display: flex;
-                                            align-items: center;
-                                            gap: 15px;
-                                        }
-                                        
-                                        .offers img {
-                                            width: 50px;
-                                            height: 50px;
-                                            border-radius: 50%;
-                                        }
-                                        
-                                        .here {
-                                            padding: 40px 50px;
-                                            display: flex;
-                                            background-color: rgb(119, 114, 114);
-                                            width: 200px;
-                                            height: 350px;
-                                        }
-                                        
-                                        .people {
-                                            display: flex;
-                                            justify-content: space-between;
-                                            align-items: center;
-                                        }
-                                        
-                                        .now {
-                                            background-color: rgb(152, 48, 48);
-                                            width: 200px;
-                                            height: 350px;
-                                        }
-                                        
-                                        .genuinely {
-                                            color: white;
-                                            background-color: rgb(32, 32, 41);
-                                            width: 750px;
-                                            height: 300px;
-                                        }
-                                        
-                                        .one {
-                                            display: flex;
-                                            justify-content: space-around;
-                                            align-items: center;
-                                        }
-                                        
-                                        .present {
-                                            background-color: bisque;
-                                            width: 188px;
-                                            height: 800px;
-                                        }
-                                        
-                                        .A {
-                                            display: flex;
-                                        }
-                                        
-                                        .B {
-                                            display: flex;
-                                        }
-                                        
-                                        .C {
-                                            display: flex;
-                                        }
-                                        
-                                        .D {
-                                            display: flex;
-                                        }
-                                        
-                                        .F {
-                                            display: flex;
-                                        }
-                                        
-                                        .offers img {
-                                            border-radius: 17px;
-                                        }
-                                        
-                                        .now img {
-                                            border-radius: 17px;
-                                        }
-                                        
-                                        .present img {
-                                            border-radius: 17px;
-                                        }
-                                        
-                                        .genuinely {
-                                            border-radius: 17px;
-                                        }
-                                        
-                                        .people {
-                                            border-radius: 17px;
-                                        }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all {}
+
+.Gard {}
+
+.Daniel {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
