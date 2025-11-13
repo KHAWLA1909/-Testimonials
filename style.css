@@ -1,13 +1,68 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.all {}
-
-.Gard {}
-
-.Daniel {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .all {
+                gap: 10px;
+                margin: 0%;
+                width: 1500px;
+                height: 11800px;
+                display: grid;
+                grid-template-columns: repeat(3, auto);
+                grid-template-rows: repeat(3, auto);
+                align-content: center;
+                justify-content: space-between;
+            }
+            
+            .main {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .GardDaniel {
+                padding: 0%;
+                width: 500px;
+                height: 470px;
+                background-color: plum;
+                color: white;
+            }
+            
+            .daniel {
+                display: flex;
+                justify-content: space-between;
+                align-content: center;
+                gap: 200px;
+            }
+            
+            .GardJonathan {
+                padding: 0%;
+                width: 500px;
+                height: 310px;
+                background-color: gray;
+                color: white;
+            }
+            
+            .GardKira {
+                padding: 0%;
+                width: 150px;
+                height: 1100px;
+                background-color: rgb(59, 17, 23);
+                color: white;
+            }
+            
+            .GardJeanette {
+                padding: 0%;
+                width: 330px;
+                height: 330px;
+                background-color: rgb(59, 17, 23);
+                color: white;
+            }
+            
+            .GardPatrick {
+                padding: 0%;
+                width: 530px;
+                height: 399px;
+                background-color: rgb(59, 17, 23);
+                color: white;
+            }
