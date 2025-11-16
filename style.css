@@ -4,21 +4,19 @@
             }
             
             .all {
-                gap: 10px;
-                margin: 0%;
                 display: grid;
-                grid-template-columns: repeat(3, auto);
-                grid-template-rows: repeat(3, auto);
-                align-content: center;
-                justify-content: space-between;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: auto;
+                gap: 20px;
             }
             
             .main {
                 display: flex;
+                gap: 20px;
             }
             
             .GardDaniel {
-                padding: 0%;
+                grid-column: 1 /span 2;
                 background-color: blueviolet;
                 color: white;
             }
@@ -34,30 +32,31 @@
             }
             
             .GardJonathan {
-                padding: 0%;
+                grid-column: 3;
                 background-color: gray;
                 color: white;
             }
             
             .GardKira {
-                padding: 0%;
+                grid-column: 4;
+                grid-row: 1 / span 2;
                 background-color: white;
                 color: rgb(33, 26, 67);
-                height: 100px;
             }
             
             .GardJeanette {
-                padding: 0%;
+                height: 300px;
+                grid-column: 1;
                 background-color: white;
                 color: rgb(33, 26, 67);
-                width: 522px;
             }
             
             .GardPatrick {
-                padding: 0%;
+                height: 333px;
+                width: 700px;
+                grid-column: 2 / span 2;
                 background-color: rgb(33, 26, 67);
                 color: white;
-                width: 600px;
             }
             
             .GardJonathan img {
