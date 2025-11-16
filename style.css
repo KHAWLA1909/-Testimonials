@@ -10,21 +10,10 @@
                 gap: 20px;
             }
             
-            .main {
-                display: flex;
-                gap: 20px;
-            }
-            
             .GardDaniel {
                 grid-column: 1 /span 2;
                 background-color: blueviolet;
                 color: white;
-            }
-            
-            .daniel {
-                display: flex;
-                justify-content: space-between;
-                gap: 200px;
             }
             
             .daniel img {
