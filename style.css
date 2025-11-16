@@ -6,7 +6,7 @@
             .all {
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
-                grid-template-rows: auto;
+                grid-auto-rows: auto;
                 gap: 20px;
             }
             
@@ -45,15 +45,12 @@
             }
             
             .GardJeanette {
-                height: 300px;
                 grid-column: 1;
                 background-color: white;
                 color: rgb(33, 26, 67);
             }
             
             .GardPatrick {
-                height: 333px;
-                width: 700px;
                 grid-column: 2 / span 2;
                 background-color: rgb(33, 26, 67);
                 color: white;
